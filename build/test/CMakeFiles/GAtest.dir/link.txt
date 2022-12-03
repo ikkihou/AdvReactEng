@@ -1,0 +1,3 @@
+D:\environmentConfig\cmake\bin\cmake.exe -E rm -f CMakeFiles\GAtest.dir/objects.a
+D:\environmentConfig\mingw64\bin\ar.exe qc CMakeFiles\GAtest.dir/objects.a @CMakeFiles\GAtest.dir\objects1.rsp
+D:\environmentConfig\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\GAtest.dir/objects.a -Wl,--no-whole-archive -o GAtest.exe -Wl,--out-implib,libGAtest.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\GAtest.dir\linklibs.rsp

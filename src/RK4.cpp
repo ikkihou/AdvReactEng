@@ -5,12 +5,9 @@
 #include <vector>
 #include <fstream>
 
-// Finds value of y for a given x using step size h
-// and initial value y0 at x0.
 double RK4::rungeKutta(double x0, double y0, double h, double l,
                        double (*func1)(double, double), double (*func2)(double, double))
 {
-        using namespace std;
         // Count number of iterations using step size or
         // step height h
 
@@ -38,10 +35,6 @@ double RK4::rungeKutta(double x0, double y0, double h, double l,
                 // Update next value of y
                 x += (h / 6.0) * (k11 + 2 * k12 + 2 * k13 + k14);
                 y += (h / 6.0) * (k21 + 2 * k22 + 2 * k23 + k24);
-
-                // std::cout << "yco : " << x <<endl;
-
-                //        h = h/2;
                 // Update next value of x
                 l += h;
         }

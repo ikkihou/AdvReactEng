@@ -1,0 +1,2 @@
+D:\environmentConfig\mingw64\bin\ar.exe qc libGAlib.a CMakeFiles/GAlib.dir/RK4.cpp.obj CMakeFiles/GAlib.dir/ODE.cpp.obj CMakeFiles/GAlib.dir/relatives.cpp.obj
+D:\environmentConfig\mingw64\bin\ranlib.exe libGAlib.a
